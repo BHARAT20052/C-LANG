@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+void main()
+{
+    int choice, a,b;
+    printf("enter the number");
+    scanf("%d%d",&a,&b);
+    printf("Choose operation: 1 for Sum, 2 for Sub, 3 for Mult, 4 for Div: ");
+    scanf("%d", &choice);
+
+    if(choice==1){
+        printf("sum of numbers:%d\n",a+b);
+    }
+    else if(choice==2){
+        printf("sub of numbers:%d\n",a-b);
+        
+    }
+    else if(choice==3){
+        printf("mult of numbers:%d\n",a*b);
+        
+    }
+    else if(choice==4){
+        printf("div of numbers:%d\n",a/b);
+        
+    }
+    else{
+        printf("invalid symbol");
+    }
+        
+    
+    
+}
